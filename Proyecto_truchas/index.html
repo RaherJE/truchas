@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOTRUCHAS</title>
+    <link rel="icon" href="img\pino.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ----------------------------------------------------------------------------------------------------->
+<!-- Botón de menú (tres rayas) -->
+<div class="menu-toggle" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<!-- Menú desplegable -->
+<div class="menu" id="menu">
+    <a href="#">Inicio</a>
+    <!--<a href="#">Servicios</a>-->
+    <a href="#">Acerca de</a>
+    <a href="#">Contacto</a>
+</div>
+
+<script>
+    function toggleMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('active');
+    }
+</script>
+<!-- ----------------------------------------------------------------------------------------------------->
+
+    <!-- Cabecera -->
+    <div class="header">
+       
+    </div>
+
+    <!-- Mensaje de aviso -->
+    <div class="message-container">
+        <h1>LO SENTIMOS</h1>
+        <p>Parece que el parque no tiene actividades programadas. ¡Vuelve a checar más tarde!</p>
+    </div>
+
+    <!-- Próximos estrenos -->
+    <div class="upcoming">
+        <h2>ACTIVIDADES</h2>
+        <div class="movie-list">
+            <div class="movie-item">
+               
+                <div class="title">actividad 1</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+              <!--<img src="https://via.placeholder.com/100x150?text=Película+2" alt="Película 2">-->
+                <div class="title">actividad 2</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+              
+                <div class="title">actividad 3</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+              
+                <div class="title">actividad 4</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+
+                <div class="title">actividad 5</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+
+                <div class="title">actividad 6</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+
+                <div class="title">actividad 7</div>
+                <div class="date">...</div>
+            </div>
+            <div class="movie-item">
+
+                <div class="title">actividad 8</div>
+                <div class="date">...</div>
+            </div>
+            
+        </div>
+    </div>
+
+       
+
+
+    <!-- Barra de navegación inferior -->
+    <div class="navbar">
+        
+    <div class="contenedor">
+        <a href="index.html"><img src="./img/hogar.png" alt="inicio" class="imagen"><!--<span>inicio</span>--></a>
+        <!--<img src="./img/mapa.png">--> 
+       <div class="subtitle">Inicio</div>
+    </div>
+
+
+
+
+    <div class="contenedor" >
+        <a href="extras.html"><img src="./img/extra.png" alt="Extras" class="imagen"><!--<span>Extras</span>--></a>
+      <!-- <img src="./img/extra.png" >-->
+      <div class="subtitle">Extras</div> 
+    </div>
+
+
+
+
+        <div class="contenedor">
+            <a href="boletos.html"><img src="./img/boleto.png" alt="boletos" class="imagen"><!--<span>boletos</span>--></a>
+        <!--<img src="./img/boleto.png">--> 
+            <div class="subtitle">Boletos</div>
+        </div>
+
+
+
+        <div class="contenedor">
+            <a href="galeria.html"><img src="./img/imagen.png" alt="galeria" class="imagen"><!--<span>galeria</span>--></a>
+           <!-- <img src="./img/imagen.png">-->
+            <div class="subtitle">Galeria</div>
+        </div>
+
+
+
+        <div class="contenedor">
+
+            <a href="comentarios.html"><img src="./img/burbuja-de-dialogo.png" alt="comentarios" class="imagen"><!--<span>comentarios</span>--></a>            <!-- <img src="./img/burbuja-de-dialogo.png">-->
+            <div class="subtitle">Comentarios</div>
+        </div>
+    </div>
+
+</body>
+</html>
